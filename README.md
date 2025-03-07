@@ -11,7 +11,7 @@ This Docker image is unofficial and not supported by WithSecure. Use  this proje
 
 ## Getting started
 1. Clone the repo.
-2. Download license file using your WithSecure login.
+2. Download license using your WithSecure login. [Official instruction](https://www.withsecure.com/userguides/product.html#business/radar/4.0/en/task_CE3186C99BF84BA289D58BA8A883DC40-4.0-en "Official instruction"), follow step 1 but skip the part about downloading the scan node installation package.
 4. Move license.fsrl to the subfolder build.
 5. Build image and start container using 'docker-compose up -d --build'.
 
