@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  withsecure-scannode:
+    build: .
+    container_name: node
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+    restart: always
