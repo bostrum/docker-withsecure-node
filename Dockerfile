@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN mkdir -p /opt/f-secure/radar-scannodeagent
 
 ADD https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb /tmp/packages-microsoft-prod.deb
-COPY ./build/withsecure-evm-scannodeagent-installer_1.1.0-13_amd64.deb /tmp/
+ADD https://updates-api.radar-prd.fsapi.com/api/1.1/ProductUpdates/Components/ScanNodeAgent/Releases/4.0.0.0/Download /tmp/withsecure-evm-scannodeagent-installer_1.1.0-13_amd64.deb
 COPY ./build/license.fsrl /opt/f-secure/radar-scannodeagent/
 
 RUN apt-get update && \
