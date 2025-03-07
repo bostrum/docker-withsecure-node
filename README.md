@@ -8,11 +8,15 @@ This Docker image is unofficial and not supported by WithSecure. Use  this proje
 - Machine running Ubuntu version 20.04.
 - Docker & Docker Compose installed.
 - WithSecure subscription to download:
--- withsecure-evm-scannodeagent-installer_1.1.0-13_amd64.deb
--- license.fsrl
+    - withsecure-evm-scannodeagent-installer_1.1.0-13_amd64.deb
+    - license.fsrl
 
 ## Getting started
 - Coming soon
+1. Clone the repo
+   ```sh
+   git clone https://github.com/bostrum/docker-withsecure-node.git
+   ```
 
 ## Compatibility
 Project is only  tested and proved functional with Ubuntu 20.04. Feel free to test other versions. Note: This setup does not work with Ubuntu 18.04 due to the GLIBC 2.27 version, which is incompatible with the required dependencies.
